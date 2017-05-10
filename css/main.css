@@ -288,7 +288,7 @@ textarea {
 }
 
 body {
-  background-color: #F2E8E8;
+  background-color: #f9f9f9;
 }
 
 .center { text-align: center; }
@@ -299,13 +299,17 @@ body {
   margin: auto;
   background-color: white;
   border-radius: 15px;
-  box-shadow: 2px 1px 3px 2px grey;
+  border-right: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+  position: relative;
+  -webkit-box-shadow: -2px 0 2px #eee, 2px 0 2px #eee;
+  box-shadow: -2px 0 2px #eee, 2px 0 2px #eee;
 }
 
 .wrapper:after {
   content: '';
   border: 1px solid red;
-  width: 1024px;
+  width: 1020px;
   display: block;
   height: 10px;
   margin-top: 50px;
