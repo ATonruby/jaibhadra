@@ -472,3 +472,18 @@ footer {
 .service > h2 {
   text-align: center;
 }
+
+.person {
+  margin-bottom: 20px;
+}
+
+.read_more_btn {
+  cursor: pointer;
+  font-size: 13px;
+  color: red;
+  text-decoration: underline;
+  border: 0 solid red;
+  padding: 2px 20px 5px 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 2px grey;
+}
