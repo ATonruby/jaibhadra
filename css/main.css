@@ -487,6 +487,8 @@ footer {
 }
 
 .read_more_btn {
+  float: right;
+  margin: 10px 10px 0 0;
   cursor: pointer;
   font-size: 13px;
   color: red;
