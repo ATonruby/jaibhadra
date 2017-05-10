@@ -8,4 +8,13 @@ $(function(){
     .end()
     .appendTo('#slideshow')
   }, 4000)
+
+  $(".fancybox").fancybox({
+      openEffect  : 'none',
+      closeEffect : 'none',
+      iframe : {
+        preload: false
+      }
+  })
+
 })
