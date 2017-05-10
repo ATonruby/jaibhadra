@@ -345,6 +345,33 @@ nav > a:last-child {
   border-right: none;
 }
 
+h1 {
+  color: red;
+  font-size: 20px;
+  margin: 5px 0 10px 0;
+  border: 0 solid red;
+  font-weight: normal;
+}
+
+p {
+  font-size: 13px;
+  line-height: 22px;
+  text-align: left;
+}
+
+h2 {
+  font-size: 13px;
+}
+
+.list {
+  list-style-type: disc;
+  font-size: 13px;
+}
+
+.list > li {
+  margin-bottom: 10px;
+}
+
 #logo {
   width: 143px;
   height: 99px;
@@ -427,4 +454,21 @@ footer {
 /* ABOUT */
 #about {
 
+}
+
+.service {
+  max-width: 300px;
+  float: left;
+  margin-right: 8px;
+  min-height: 270px;
+  border: 1px dotted #ccc;
+}
+
+.service > img {
+  display: block;
+  max-width: 100%;
+}
+
+.service > h2 {
+  text-align: center;
 }
