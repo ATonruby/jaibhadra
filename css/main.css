@@ -498,3 +498,46 @@ footer {
   border-radius: 10px;
   box-shadow: 0 0 2px grey;
 }
+
+.address_container {
+  width: 50%;
+  float: left;
+}
+
+#addressess, #contact_form {
+  width: 45%;
+  float: left;
+}
+
+#addressess {
+  margin-right: 5%;
+}
+
+#contact_details {
+  font-size: 13px;
+}
+
+input[type="text"], textarea {
+  display: block;
+  width: 90%;
+  padding: 6px;
+  font-size: 14px;
+  border: #ddd solid 1px;
+  margin: 0 0 10px 0;
+}
+
+input[type="text"] {
+  height: 40px;
+}
+
+textarea {
+  resize: none;
+  height: 80px;
+}
+
+address {
+  font-style: normal;
+  font-size: 13px;
+  line-height: 22px;
+  margin-bottom: 20px
+}
